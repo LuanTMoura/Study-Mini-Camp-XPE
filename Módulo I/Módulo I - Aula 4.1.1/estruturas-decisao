@@ -1,0 +1,24 @@
+<html>
+    <script>
+    //if, else if e else
+
+    var c = 40;
+    var d = 50;
+
+    if (c >= d){
+        console.log ("c é maior ou igual a d");
+    } else if (c <= d){
+        console.log ("c é menor ou igual a d");
+    }
+
+    var f = 10;
+    var g = 11;
+    if (f === g) //O == no JavaScript faz a conversão automática dos tipos das variáveis. Então, se fosse 10 int e 10 string, ele retornaria true.
+    {
+    console.log ("f é igual a g");
+    }
+    if (f !== g){
+        console.log ("f é diferente de g");
+    }
+    </script>
+</html>

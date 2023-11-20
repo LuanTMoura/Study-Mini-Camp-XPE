@@ -1,0 +1,23 @@
+<html>
+    <script>
+        //A lógica booleana ou álgebra booleana, representa lógica em expressões e aceita apenas valores verdadeiros ou falsos. Os operadores mais utlizados são E, OU e NÃO.
+        
+        //A depender das condições lógicas das variáveis abaixo, as declarações das estruturas de decisão são afetadas. No caso, são ou não acionadas e depois gerando um print no console.
+        var hojeFezCalor = true;
+        var ontemFezCalor = true;
+
+        //OPERADOR E
+        if (hojeFezCalor && ontemFezCalor){
+            console.log ("Fez calor ontem e hoje.");
+        }
+        //OPERADOR OU
+        else if (hojeFezCalor || ontemFezCalor){
+            console.log ("Fez calor ontem ou hoje.");
+        }
+        //OPERADOR NÃO (é acionado quando uma das avariáveis são de valor false)
+       else if (!hojeFezCalor){
+            console.log ("Hoje não fez calor.");
+        }
+ 
+    </script>
+</html>

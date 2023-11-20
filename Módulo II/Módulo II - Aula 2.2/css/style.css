@@ -1,0 +1,31 @@
+/* padding distancia tudo que tiver no body para longe do centro esquerdo, font-family altera as fontes que tiverem no body e background-color altera as cores do fundo */
+body{
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+/* centraliza os títulos e sub-títulos */
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+/* centraliza a tabela */
+table{
+    margin: auto;
+}
+/* Dá distanciamento entre a table head e as tables datas */
+th, td{
+    padding: 6px;
+}
+/* nth-child é umpteenth child ou enésima filha e é uma pseudo-classe */
+tbody tr:nth-child(even){
+    background-color: #dddddd;
+}
+/* hover ou sobrevoar é uma pseudo-classe que faz ações quando o usuário passa com o mouse por cima do texto de algum objeto definido antes; font-weight altera o estado da fonte, user-select o estado do mouse enquanto estiver em cima do objeto e cursor o estado de visualização do cursor */
+tbody tr:hover{
+    font-weight: bold;
+    cursor: default;
+}
+/* Instancia a classe title e faz alterções nela */
+.title{
+    color: darkred;
+}

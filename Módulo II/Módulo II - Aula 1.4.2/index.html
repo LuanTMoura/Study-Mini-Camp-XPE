@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Conceitos HTML</title>
+</head>
+<body>
+    <!-- O header é o cabeçalho da página. é sempre bom específicar a tag para a página renderizar de forma correta, semânticamente falando. -->
+    <header>
+        <h1>Conceitos HTML</h1> 
+    </header>
+    <!-- O main é o conteúdo princiapl do texto que paraece para o usuário. -->
+    <main>
+    <!-- Dentro do main vem tags com o H1, 2, 3 etc -->
+    <h1>Texto H1</h1>
+    <h2>Texto H2</h2>
+    <h3>Texto H3</h3>
+    <h4>Texto H4</h4>
+    <h5>Texto H5</h5>
+    <h6>Texto H6</h6>
+    <!-- <p> é de parágrafo -->
+    
+    <p>Exemplo de paágrafo 1</p>
+    <p>Exemplo de paágrafo 2</p>
+    
+    <!-- <ol> é usado para listas ordenadas e usa valores númericos para separar os itens -->
+    <ol> 
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ol>
+    <!-- <ul> é usado para listas desordenadas e por padrão usa círculos separar os itens -->
+    <ul> 
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ul>
+    <!-- <table> é usado para criação de tabelas simples -->
+    <table>
+        <!-- <caption> é o título da tabela -->
+        <caption>Tecnologias Web</caption>
+        <!-- table head ou cabeçalho-->
+        <thead>
+        <!-- table role ou fio da tabela, que são as colunas com conteúdos que preenchem a tabela -->
+            <tr>
+            <!-- específicando o conteúdo do table head -->
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <!-- table body ou corpo da tabela-->
+        <tbody>
+            <!-- table role 1 ou coluna 1-->
+            <tr>
+                <!-- table data, que é texto puro e não fica centralizado por padrão -->
+            <td>HTML</td>
+            <td>Hyper Text Markup Language</td>
+            </tr>
+
+            <!-- table role 1 ou coluna 2-->
+            <tr>
+            <td>CSS</td>
+            <td>Cascating Style Sheets</td>
+            </tr>
+
+            <!-- table role 1 ou coluna 3-->
+            <tr>
+            <td>JavaScript</td>
+            <td>Também conhecido como ECMAScript</td>
+            </tr>
+        </tbody>
+        <!-- table foot ou rodapé da tabela-->
+        <tfoot>
+            <td>Total de tecnologias: </td>
+            <td>3.</td>
+        </tfoot>
+    </table>
+    </main>
+    <!-- <figure> serve para organizar melhor imagens -->
+    <figure>
+        <!-- <figcaption> serve para colocar título da imagem -->
+        <figcaption>Exemplo de imagem: </figcaption>
+        <!-- <img> serve para imagens e só carrega atributos, ou seja, não é necessário fechar com "</>" -->
+        <img width="300" src="./img/picture.jpg" alt="HTML">
+        <!-- width é o tamanho, src é a source ou fonte e alt é o texto que identifica a imagem -->
+    </figure>
+    <script defer src = "./js/script.js" > //defer indica que o código js será totalmente renderizado no dispositivo do usuário </script>
+</body>
+</html>

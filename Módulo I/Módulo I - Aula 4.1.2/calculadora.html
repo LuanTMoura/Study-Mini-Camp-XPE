@@ -1,0 +1,31 @@
+<html>
+<script>
+//OPERADORES
+function calculo (operacao, num1, num2){
+var resultado;
+if (operacao === "SOMA"){
+resultado = num1 + num2;
+} else if (operacao === "SUBTRACAO"){
+resultado = num1 - num2;
+} else if (operacao === "MULTIPLICACAO"){
+resultado = num1 × num2;
+}else if (operacao === "DIVISAO"){
+resultado = num1 ÷ num2;
+}else if (operacao === "RESTO"){
+resultado = num1 % num2;
+} else if (operacao === "PORCENTAGEM"){
+resultado = num1 × num2 / 100;
+} else //O else não precisa ser usado, pois é o final de toda a condição lógica. Um else if como última condição, seria suficiente. 
+{
+resultado = console.log ("Operação inválida");
+}
+}
+return resultado;
+}
+
+//CHAMANDO A FUNÇÃO
+console.log (calculo ("SOMA", 2, 3)); //Resultado 5.
+
+//A função também pode ser chamada digitando no console.
+</script>
+</html>
